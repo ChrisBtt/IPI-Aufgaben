@@ -1,0 +1,340 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sp",
+				"split_words"
+			],
+			[
+				"last",
+				"last_space"
+			],
+			[
+				"second",
+				"second_half"
+			],
+			[
+				"init",
+				"init_deck"
+			],
+			[
+				"new",
+				"new_number"
+			],
+			[
+				"ob",
+				"obPalindrom"
+			],
+			[
+				"first",
+				"first_s"
+			],
+			[
+				"sub",
+				"substr"
+			],
+			[
+				"substr",
+				"substring"
+			],
+			[
+				"to",
+				"to_lower"
+			],
+			[
+				"is_square",
+				"is_square_opt"
+			],
+			[
+				"is_s",
+				"is_square_opt"
+			],
+			[
+				"wurzel",
+				"wurzel-n"
+			],
+			[
+				"sqrt",
+				"sqrt_lambda"
+			],
+			[
+				"psi",
+				"psi_n"
+			],
+			[
+				"ps",
+				"psi_n"
+			],
+			[
+				"d",
+				"d_mm"
+			],
+			[
+				"wee",
+				"weekday"
+			],
+			[
+				"we",
+				"weekday2001"
+			],
+			[
+				"flor",
+				"floorMod"
+			],
+			[
+				"fl",
+				"floorMod"
+			],
+			[
+				"floor",
+				"floorMod"
+			],
+			[
+				"week",
+				"weekday1"
+			],
+			[
+				"floo",
+				"floorDiv"
+			],
+			[
+				"weekda",
+				"weekday"
+			],
+			[
+				"x_",
+				"x_eingeschraenkt"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"si",
+				"sin_third"
+			],
+			[
+				"s",
+				"sin_third"
+			],
+			[
+				"string",
+				"string"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"strin",
+				"string_z"
+			],
+			[
+				"stri",
+				"string_z"
+			],
+			[
+				"pl",
+				"plot"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 404.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt5/ordererd_insert.cpp",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt4/palindrom.cpp",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt4/Blatt4Aufgabe3.cpp",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt4/email.cpp",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt3/weekday.cpp",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt4/pythagoras.cpp",
+		"/Users/Chris/Desktop/Programmieren/Python/q_w.py",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt4/kubikwurzel.cpp",
+		"/Users/Chris/Desktop/Studium/Fachschaft/Physik Einzelsitzung 16.11.16",
+		"/Users/Chris/Desktop/Studium/Ex III/Blatt4/4.1d.py",
+		"/Users/Chris/Desktop/Programmieren/Python/planck.py",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt3/potenz.cpp",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt3/sinus.cpp",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt3/ostern.cpp",
+		"/Users/Chris/Desktop/Programmieren/Python/integrieren,py",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Blatt3/Gauß1.cpp",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Gauß1.cpp",
+		"/Users/Chris/Desktop/Studium/Praktische Info/potenz.cpp",
+		"/Users/Chris/Desktop/Programmieren/Python/Blatt4.3.py",
+		"/Users/Chris/Desktop/Programmieren/Python/integrieren.py",
+		"/Users/Chris/Desktop/Studium/Praktische Info/Gauß'sche Osterregel.cpp",
+		"/Users/Chris/Downloads/n-slit_diffrac.py",
+		"/Users/Chris/Desktop/Programmieren/Python/testFunc.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cards",
+			"deck",
+			"x_1",
+			"Auf",
+			"Benedikt",
+			"lamda",
+			"math",
+			"weekday",
+			"welle",
+			"lambda",
+			"naeherung",
+			"x_even",
+			"mod"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 83.0
+	},
+	"pinned_build_system": "",
+	"project": "email.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
