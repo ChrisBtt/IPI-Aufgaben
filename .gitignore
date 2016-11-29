@@ -1,9 +1,9 @@
 # Compiled files
 
-*.exec
-*.zip
+*/*.exec
+*/*.zip
 
 # Skript folder ignored
 
-Skript
+Skript/*
 
