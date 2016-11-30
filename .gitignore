@@ -1,7 +1,9 @@
-# Compiled files
+# Ignore everything
 
-*/*.exec
-*/*.zip
+*/*.*
+!*/*.cpp
+!*/*.hpp
+!.gitignore
 
 # Skript folder ignored
 
