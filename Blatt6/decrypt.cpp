@@ -1,7 +1,10 @@
-#include <iostream>
-#include <string>
+#include <iostream>  // std::cout
+#include <string>  //std::string
 #include <fstream>
-#include <map>
+#include <map>  // std::map
+#include <cctype>  // 
+#include <algorithm>  // std::transform()
+#include <vector>  // std::vector
 
 std::map <char, int> init_alpha() {
 
@@ -14,34 +17,80 @@ std::map <char, int> init_alpha() {
     return map;
 }
 
+std::map <char, int> check_occurrence(std::string text) {
 
-int main() {
+    std::map <char, int> map = init_alpha();  // initialize alphabetic map
 
-    std::map <char, int> map = init_alpha();
-    for ( auto & element : map) {
-        std::cout << element.first << ": " << element.second << std::endl;
+    // loop through the string to check each character
+    for (auto & text_element : text) {
+
+        if (std::isalpha(text_element)) {
+            map[std::tolower(text_element)] +=1;
+        }
     }
 
-    
-    // std::ifstream infile("encrypted_text.txt");  // Datei mit einzulesendem Text
-    // std::string text;  // initialisiere Strings zum Einlesen
-    // std::string line;
-    // while (infile) {  // Zeilenweise Speichern der Textdatei in einem String
-    //     std::getline(infile, line);
-    //     text += line + "\n";
-    // }
+    return map;
+}
 
-    // std::transform(text.begin(), text.end(), text.begin(), std::tolower);  // transform all letters to lower case to handle them better
+std::map <int, char> invert(std::map <char, int> map) {
 
-    // std::map <char, int> counts;  // initialize empty map
+    std::map <int, char> sorted;
+
+    for (auto & element : map) {  // add new inverted tupel for each tupel in given map
+        sorted.insert(std::pair<int, char> (element.second, element.first));
+    }
+
+    return sorted;
+}
+        // was heisst hier sorted[i->second] = i->first, wenn i iterator?
 
 
+int main() {
+// variables
+    std::string text;
+    std::string line;
+    std::ifstream infile("encrypted_text.txt");  // external file with text
 
+// include strings from external file to our own program
+    while (infile) {  // save string per line in a string and add it to an other 
+        std::getline(infile, line);
+        text += line + "\n";
+    }
 
-    // for (auto iter = text.begin(); iter != text.end(); ++iter) {
-    //     char c = *iter;
-    //     if (std::map.first)
-    // }
+    // std::transform(text.begin(), text.end(), text.begin(), ::tolower);  // transform all letters to lower case to handle them better
+
+    std::map <char, int> map = check_occurrence(text);  // check occurrence through the defined function
+
+    std::map <int, char> sorted = invert(map);  // this could be written in one line but would be quite confusing
+
+// hardcoded standard apperence of alphabetic letters in texts
+    std::vector <char> letters = {'z','j','q','x','k','v','b','y','g','p','w','f','m','c','u','l','d','r','h','s','n','i','o','a','t','e'};
+
+// create a a key vector to translate the whole string
+    std::map <char, char> decrypt;
+    {
+        int i = 0;  // created a counter variable to loop through the vector and the map at once
+        for (auto & element : sorted) {
+            decrypt.insert(std::pair<char, char> (element.second, letters[i]));
+            decrypt.insert(std::pair<char, char> (std::toupper(element.second), std::toupper(letters[i])));
+            i++;
+        }
+    }
+
+// encrypt the given string by the created key vector 'decrypt'
+    // do not use transform because of extra argument 'decrypt'
+    for (auto &character : text) {
+        if (std::isalpha(character)) {  // only convert the letters and leave out the rest
+            character = decrypt[character];
+        }
+    }
+
+// print out the decrypted text to read it easily
+    std::cout << "\n" << text << "\n \n";
 
     return 0;
 }
+
+
+
+
