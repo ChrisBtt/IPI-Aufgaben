@@ -7,7 +7,7 @@
 //
 
 # include <iostream>
-# include <string>/Users/MoritzAlthaus/Desktop/sort_time.cpp/sort_time.cpp/sort_time.cpp
+# include <string>
 # include <cassert>
 # include <cmath>
 # include <vector>
