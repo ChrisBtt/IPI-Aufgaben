@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:test.cpp.xcodeproj">
+      location = "self:/Users/MoritzAlthaus/Desktop/IPI-Aufgaben/Blatt7/test.cpp/test.xcodeproj">
    </FileRef>
 </Workspace>
