@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  test.cpp
+//  std::cout.cpp
 //
 //  Created by Moritz Althaus on 10/12/16.
 //  Copyright © 2016 Moritz Althaus. All rights reserved.
@@ -11,5 +11,12 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    double std::cout;
+    double x = std::cout + std::cout;
+    double std::cout;
+    std::cout << x;
+    
+    
     return 0;
+    
 }
