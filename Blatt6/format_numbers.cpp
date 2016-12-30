@@ -41,7 +41,7 @@ int main () {
     std::vector <double> v = {1.6, 19.5, 2.2};
     // vec_to_int(v);
     for (auto iter = v.begin(); iter != v.end(); ++iter) {
-        std::cout << v.at(element) << "\n";
+        std::cout << v.at(iter) << "\n";
     }
 
     return 0;

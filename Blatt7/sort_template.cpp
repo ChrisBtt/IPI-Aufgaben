@@ -70,7 +70,7 @@ template <typename Iterator, typename LessThanFunctor>
 
 void insertion_sort(Iterator begin, Iterator end, LessThanFunctor less_than) {
 
-    Iterator beginning = begin;
+    Iterator beginning = begin;  // creates variable to refer to begin of the container
     for (begin++; begin < end; ++begin) {
         
         auto current = *begin;  // remarks the given element at position k
@@ -92,21 +92,21 @@ void insertion_sort(Iterator begin, Iterator end, LessThanFunctor less_than) {
 
 int main() {
 
-    std::vector <double> v = {1.0, 2.0, 2.5, 2.5, 3.0};
+    std::vector <std::string> v = {"Ac", "ab", "De", "cf"};
 
-    insertion_sort(v.begin(), v.end(), [] (double a, double b) {  // sort container and check if sorted
+    insertion_sort(v.begin(), v.end(), [] (std::string a, std::string b) {  // sort container and check if sorted
         return a>b;
     });
 
     for (auto & element : v) {
         std::cout << element << std::endl;
     }
-    assert(check_sorted(v.begin(), v.end(), [] (double a, double b) {
+    assert(check_sorted(v.begin(), v.end(), [] (std::string a, std::string b) {
         return a>b;
     }));
 
     std::random_shuffle(v.begin(), v.end());  // shuffle container and test if sorted
-    assert(!check_sorted(v.begin(), v.end(), [] (double a, double b) {
+    assert(!check_sorted(v.begin(), v.end(), [] (std::string a, std::string b) {
         return a>b;
     }));
 
