@@ -15,6 +15,7 @@ class Point
     // die Koordinaten des Punktes
     double x_;
     double y_;
+    double z_;
     
 public:
     
